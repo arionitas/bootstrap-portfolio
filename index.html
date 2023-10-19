@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Arxivn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39996392d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="assets/images/ARXIVN-LOGO-3.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#musicvideos">Music Videos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-rectangle-xmark" style="color: #00fa32;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #00fa32;" onclick="openmenu()"></i>       
+
+        </nav>
+        <div class="header-text">
+            <p>Creative Designer</p>
+            <h1>Welcome, I'm Arion AKA<br><span>ARXIVN</span></h1>
+        </div>
+    </div>
+
+ <!-------------------ABOUT--------------------------->
+
+ </div>
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/photo-shoots/ARION-WHITE-BG-Monochrome.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As the co-founder of Konnect Studios,
+                    I embarked on an exhilarating journey
+                    into the realm of music production, 
+                    immersing myself in the intricacies 
+                    of business, logistics, and the world 
+                    of start-ups. This venture bestowed upon
+                    me not just invaluable insights but also a
+                    diverse skill-set sculpted through overcoming
+                    challenges and crafting the creation of a 
+                    company from the ground up. My journey has
+                    primed me with a tapestry of abilities, which 
+                    I'm now poised to weave into the fabric of 
+                    my exciting new path. Eager to infuse innovation 
+                    and vitality into my next endeavour, I'm thrilled to explore 
+                    the possibilities ahead.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Web Development</span><br>Front-End Web Development Training at edX</li>
+                        <li><span>Adobe-Suite</span><br>Proficiency in Premiere Pro, Photoshop, Light-Room, inDesign and After Effects</li>
+                        <li><span>Arduino</span><br>Engineering coding programmes to interact with different technologies from every-day objects to house-hold items</li>
+                        <li><span>Engineering</span><br>Music production, Vocal engineering and Mixing using Logic Pro X and Fruit Loops</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Front-End Web Development student - <em>edX</em></span><br>2023 - Current</li>
+                        <li><span>Customer Service Specialist - <em>Dimensions</em></span><br>January - August 2023</li>
+                        <li><span>Freelance Fashion Stylist - <em>Frank Agency</em></span><br>June 2022 - January 2023</li>
+                        <li><span>Founder, Global Brand Director - <em>Konnect Studios</em></span><br>January 2019 - May 2022</li>
+                        <li><span>Creative Designer - <em>Tank and Mammoth</em></span><br>July 2017 - February 2021</li>
+                        <li><span>Creative Designer - <em>Vapeflix for Zeltu</em></span><br>March 2019 - April 2019</li>
+                        <li><span>Creative Designer - <em>PIQUE (Dubai)</em></span><br>September 2018 - October 2018</li>
+                        <li><span>Junior 2D Artist - <em>Absolute Post</em></span><br>July 2016 - July 2018</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University of East London</span><br>BA in Graphic Design 2014 - 2017 (Grade Achieved: <em>FIRST CLASS</em>)</li>
+                        <li><span>Richmond Upon Thames College</span><br>National Diploma in Performing Arts 2009 - 2011 (Grade Achieved: <em>D,D,M</em>)</li>
+                        <li><span>Brentside High School</span><br>GCSE'S 2004 - 2009 (Grades Achieved: <em>5 GCSE's A*-C</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ 
+ <div class="marquee-container">
+    <div class="marquee">
+        
+    </div>
+
+ <script src="app.js"></script>
+
+ <!-------------------services--------------------------->
+
+ <div id="services">
+    <div class="container">
+        <center><h1 class="sub-title">My Services</h1></center>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code-branch" style="color: #e100ff;"></i>
+                    <h2>Web Design</h2>
+                    <p>Approaching Web Design with a fresh perspective.
+                        How you tell your story matters. A good design increases leads and sales, 
+                        it grows impact and makes your website stand out from the crowd.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette" style="color: #ff00ff;"></i>
+                    <h2>Cover Art Design</h2>
+                    <p>Experienced in creating visually absorbing artwork for musicians.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cubes" style="color: #fa00ff;"></i>
+                    <h2>App Design</h2>
+                    <p>Planning and developing software solutions and web applications,
+                         supporting and maintaining websites and digital products.</p>
+                </div>
+                
+            </div>
+
+ <!-------------------portfolio--------------------------->
+
+ <div id="portfolio">
+    <di class="container">
+        <center><h1 class="sub-title">My Work</h1></center>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/cover-art/Mountains.png" alt="">
+                <div class="layer">
+                    <h3>Mountains - Blue Moon</h3>
+                    <p> This was for an artist called Blue Moon,
+                        he had written a special song which was metaphorically about traversing all
+                        obstacles to reach your partner, even if you had to move mountains
+                    </p>
+                </div>
+                </div>
+                <div class="work">
+                    <div class="layer"></div>
+                  <img src="assets/cover-art/work-2.png" alt="">
+                  <div class="layer">
+                    <h3>Magenta Leviathan - ARXIVN</h3>
+                    <p>A personal project exploring mythological stories within music and story telling.    
+                    </p>
+                  </div>
+                </div>
+                <div class="work">
+                    <div class="layer"></div>
+                  <img src="assets/cover-art/sultvn.png" alt="">
+                  <div class="layer">
+                    <h3>2020 Abduction - Sultvn</h3>
+                    <p>Sultvn, A producer and engineer hailing from Kazakhztan, Atyrau,
+                        had a project on the go called '2020' and pictured a theme revoling
+                        around space for his EP Release. I collaged a series of images together
+                        to create a world that depicts an Alien Abduction of his car. Along with this
+                        I added various elements like his headphones, Ableton Push device and other
+                        items floating above the car to give the sensation that this producers sounds
+                        are out of this world.
+                    </p>
+                  </div>
+            </div>
+        </div>      
+        <a href="https://open.spotify.com/track/2z9BThC5ULm4WCk0xQhi4Y?si=9ed63c00de0c414b" class="btn">Enter My World</a>
+    </div>
+ </div>
+</div>
+    </div>
+ <!-------------------Animations - Please note animations have been put here for experimentation - if you feel they are better placed and positioned within CSS please do so!--------------------------->
+ 
+<div class="marquee-container">
+    <div class="marquee"></div>   
+    <br>
+
+ <!-------------------Music Videos--------------------------->
+
+<div id="musicvideos">
+    <div class="container">
+            <center><h1 class="sub-title">Music Videos</h1></center>
+            <br>
+            <br>
+            <br>
+            <div>
+               <center><h2>01000101 01110110 01101001 01101100 00100000 [EVIL EYE BINARY]</h2></center>
+                <center><p> 'Evil Eye' from my album 'GEHENNA'. Following the story of character x who is stuck in the circle of Greed.</p></center>
+                <br>
+                <br>
+               <center><iframe id="ytplayer" type="text/html" width="640" height="360"
+      src="https://www.youtube.com/embed/VYbpqxmCfoA?autoplay=1&origin=http://example.com"
+      frameborder="0"></iframe></center>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div>
+                <center><h2>EvollovƎ</h2></center>
+                <center><p>A tale about two lovers, Juxtaposed.</p></center>
+                <br>
+                <br>
+                <center><iframe id="ytplayer" type="text/html" width="640" height="360"
+      src="https://www.youtube.com/embed/f2poYpSuSqQ?autoplay=1&origin=http://example.com"
+      frameborder="0"></iframe></center>
+       </div>
+        
+        </div>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <!-------------------ANIMATIONS 2--------------------------->
+ <div class="marquee-container">
+    <div class="marquee"></div>   
+    <br>
+ <!-------------------Contact--------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-brands fa-galactic-senate" style="color: #fa00fa;"></i>mgmt@arxivn.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #fa00fa;"></i>07944161481</p>
+                <div class="social-icons">
+                    <a href="https://uk.linkedin.com/in/arion-mehmeti-12138447"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/arxivn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/arionitas.mehmeti/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/arxivnarxivn"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="assets/resume/Arion Mehmeti - Resume -2023.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © ARXIVN <i class="fa-solid fa-hat-wizard" style="color: #fa00fa;"></i></p>
+        </div>
+    </div>
+
+ <!-------------------Opening-up-Tabs--------------------------->
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyYwBg1auIZdbntZmvWA_ZYmA65npQTjWw4kwpXPT727vErwMh_XrO0D3g_d32gnKWpAA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully, Thank You Hooman xD"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
