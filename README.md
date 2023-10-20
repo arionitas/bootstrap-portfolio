@@ -46,7 +46,7 @@
 
 ## Description 
 
-Utilising Boot-strap elements within my new portfolio. I didn't want to make too many design changes as I am happy with the way it is going, I just implemented the use of Bootstrap to showcase my understanding of the elements and utilities.
+Utilising Boot-strap elements within my portfolio. I didn't want to make too many design changes as I am happy with the way it is going, I just implemented the use of Bootstrap to showcase my understanding of the elements and utilities.
 
 ## Deployed Project Link
 
